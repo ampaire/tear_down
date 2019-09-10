@@ -139,11 +139,11 @@ footer p {
   text-align: center;
 }
 
-.curated-posts {
+.article-post {
   flex-wrap: wrap;
 }
 
-.curated-posts > div {
+.article-post > div {
   width: 33%;
   box-sizing: border-box;
   padding: 15vh;
