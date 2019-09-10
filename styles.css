@@ -1,25 +1,27 @@
-
 body {
   background-color: rgb(133, 130, 130);
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0;
   font-family: Sans-Serif;
 }
+
 h1 {
-  font-size:1.5em;
-  font-weight:bold;
-  margin-bottom:15px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 h2 {
-  font-size:1.4em; 
-  font-weight:bold;
-  margin-bottom:15px;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
+
 a {
   text-decoration: none;
   color: aliceblue;
@@ -29,12 +31,14 @@ a:hover {
   color: black;
 }
 
-.top-bar, .top-bar > div {
+.top-bar,
+.top-bar>div {
   border: 1px solid black;
-  
+
 }
 
-.lower-bar, .lower-bar > div {
+.lower-bar,
+.lower-bar>div {
   border: 1px solid black;
 }
 
@@ -42,9 +46,9 @@ a:hover {
   display: flex;
 }
 
-.navbar > div{
-  flex:auto;
-  padding:40px 0;
+.navbar>div {
+  flex: auto;
+  padding: 40px 0;
   text-align: center;
 }
 
@@ -64,26 +68,27 @@ a:hover {
   flex-wrap: wrap;
 }
 
-.articles > div {
+.articles>div {
   width: 50%;
   box-sizing: border-box;
-  padding:200px 0;
-  text-align:center;
+  padding: 200px 0;
+  text-align: center;
 }
+
 .membership {
-  padding:200px 0;
-  text-align:center;
+  padding: 200px 0;
+  text-align: center;
 }
 
 .latest-posts {
   flex-wrap: wrap;
 }
 
-.latest-posts > div{
+.latest-posts>div {
   width: 25%;
   box-sizing: border-box;
-  padding:200px 40px;
-  text-align:center;
+  padding: 200px 40px;
+  text-align: center;
 }
 
 .latest-posts div.large-boxes {
@@ -92,57 +97,68 @@ a:hover {
 
 .see-all {
   justify-content: center;
- padding: 50px;
+  padding: 50px;
 }
 
-.conf{
+.conf {
   padding: 40vh;
-  text-align:center;
+  text-align: center;
   flex-direction: column;
 }
 
-.community{
-  flex-wrap:wrap;
+.community {
+  flex-wrap: wrap;
 }
 
-.community > div{
-  width:50%;
-  padding:10vh;
-  box-sizing:border-box;
+.community>div {
+  width: 50%;
+  padding: 10vh;
+  box-sizing: border-box;
   text-align: center;
 }
-.community > div:first-child{
-  width:100%;
+
+.community>div:first-child {
+  width: 100%;
 }
 
-.person-week, footer p {
+.person-week,
+footer p {
   text-transform: uppercase;
 }
 
-.systems{
-  padding:25vh;
+.systems {
+  padding: 25vh;
   justify-content: center;
   flex-direction: column;
   text-align: center;
 }
 
-.curated-posts{
+.curated-posts {
   flex-wrap: wrap;
 }
 
-.curated-posts > div{
-  width:33%;
+.curated-posts>div {
+  width: 33%;
   box-sizing: border-box;
-  padding:15vh;
+  padding: 15vh;
   text-align: center;
 }
-.curated-posts > div.large-boxes{
-  width:66%;
+
+.curated-posts>div.large-boxes {
+  width: 66%;
 }
-footer{padding:25vh; text-align: center;}
-footer ul{margin-top:5vh;}
-footer a{
-  display:inline-block; 
+
+footer {
+  padding: 25vh;
+  text-align: center;
+}
+
+footer ul {
+  margin-top: 5vh;
+}
+
+footer a {
+  display: inline-block;
   padding: 3px;
-  font-size:1.2em;
+  font-size: 1.2em;
 }
