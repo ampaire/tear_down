@@ -1,128 +1,148 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+
+body {
+  background-color: rgb(133, 130, 130);
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
   margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
+  font-family: Sans-Serif;
+}
+h1 {
+  font-size:1.5em;
+  font-weight:bold;
+  margin-bottom:15px;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section { display: block; }
-
-ol,
-ul { list-style: none; }
-
-h5 { font-weight: bolder; }
-
-blockquote,
-q { quotes: none; }
-
-blockquote::before,
-blockquote::after,
-q::before,
-q::after {
-  content: "";
-  content: none;
+h2 {
+  font-size:1.4em; 
+  font-weight:bold;
+  margin-bottom:15px;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+a:hover {
+  color: black;
 }
 
-html,
-body { max-width: 100%; }
+.top-bar, .top-bar > div {
+  border: 1px solid black;
+  
+}
 
-.navbar{
-    background-color: #97979e;
-    color:#fff;
-  }
+.lower-bar, .lower-bar > div {
+  border: 1px solid black;
+}
+
+.flex {
+  display: flex;
+}
+
+.navbar > div{
+  flex:auto;
+  padding:40px 0;
+  text-align: center;
+}
+
+.latest-articles {
+  position: absolute;
+  left: calc(50% - 200px);
+  background-color: white;
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 0;
+  width: 400px;
+  text-align: center;
+}
+
+.articles {
+  flex-wrap: wrap;
+}
+
+.articles > div {
+  width: 50%;
+  box-sizing: border-box;
+  padding:200px 0;
+  text-align:center;
+}
+.membership {
+  padding:200px 0;
+  text-align:center;
+}
+
+.latest-posts {
+  flex-wrap: wrap;
+}
+
+.latest-posts > div{
+  width: 25%;
+  box-sizing: border-box;
+  padding:200px 40px;
+  text-align:center;
+}
+
+.latest-posts div.large-boxes {
+  width: 50%;
+}
+
+.see-all {
+  justify-content: center;
+ padding: 50px;
+}
+
+.conf{
+  padding: 40vh;
+  text-align:center;
+  flex-direction: column;
+}
+
+.community{
+  flex-wrap:wrap;
+}
+
+.community > div{
+  width:50%;
+  padding:10vh;
+  box-sizing:border-box;
+  text-align: center;
+}
+.community > div:first-child{
+  width:100%;
+}
+
+.person-week, footer p {
+  text-transform: uppercase;
+}
+
+.systems{
+  padding:25vh;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.curated-posts{
+  flex-wrap: wrap;
+}
+
+.curated-posts > div{
+  width:33%;
+  box-sizing: border-box;
+  padding:15vh;
+  text-align: center;
+}
+.curated-posts > div.large-boxes{
+  width:66%;
+}
+footer{padding:25vh; text-align: center;}
+footer ul{margin-top:5vh;}
+footer a{
+  display:inline-block; 
+  padding: 3px;
+  font-size:1.2em;
+}
