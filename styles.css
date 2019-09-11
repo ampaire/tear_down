@@ -87,19 +87,34 @@ a:hover {
   text-align: center;
 }
 
+article{
+  display: flex;
+  width: 100%;
+}
+
 .latest-posts {
   flex-wrap: wrap;
 }
 
-.latest-posts > div {
-  width: 25%;
+article > div {
+  width: 33.3%;
   box-sizing: border-box;
   padding: 200px 40px;
   text-align: center;
 }
 
-.latest-posts div.large-boxes {
+div.large-boxes {
   width: 50%;
+}
+
+.bottom-article > div {
+  box-sizing: border-box;
+  padding: 200px 40px;
+  text-align: center;
+}
+
+.large-advert{
+  width: 166.7%;
 }
 
 .latest {
@@ -111,6 +126,10 @@ a:hover {
   padding: 40vh;
   text-align: center;
   flex-direction: column;
+}
+
+.last-item{
+  width: 50%;
 }
 
 .community {
