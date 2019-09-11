@@ -38,6 +38,14 @@ a:hover {
   color: black;
 }
 
+article > div {
+  width: 33.3%;
+  box-sizing: border-box;
+  padding: 200px 40px;
+  text-align: center;
+}
+
+
 .top-bar,
 .top-bar > div {
   border: 1px solid black;
@@ -87,20 +95,13 @@ a:hover {
   text-align: center;
 }
 
-article{
+article {
   display: flex;
   width: 100%;
 }
 
 .latest-posts {
   flex-wrap: wrap;
-}
-
-article > div {
-  width: 33.3%;
-  box-sizing: border-box;
-  padding: 200px 40px;
-  text-align: center;
 }
 
 div.large-boxes {
@@ -113,7 +114,7 @@ div.large-boxes {
   text-align: center;
 }
 
-.large-advert{
+.large-advert {
   width: 166.7%;
 }
 
@@ -128,7 +129,7 @@ div.large-boxes {
   flex-direction: column;
 }
 
-.last-item{
+.last-item {
   width: 50%;
 }
 
