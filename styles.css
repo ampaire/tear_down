@@ -28,7 +28,7 @@ a {
   color: aliceblue;
 }
 
-footer a {
+footer li {
   display: inline-block;
   padding: 3px;
   font-size: 1.2em;
@@ -64,6 +64,7 @@ a:hover {
   background-color: white;
   margin-top: 50px;
   font-size: 30px;
+  color: black;
   font-weight: bold;
   padding: 20px 0;
   width: 400px;
@@ -101,12 +102,12 @@ a:hover {
   width: 50%;
 }
 
-.see-all {
+.latest {
   justify-content: center;
   padding: 50px;
 }
 
-.conf {
+.middle-bar {
   padding: 40vh;
   text-align: center;
   flex-direction: column;
@@ -120,6 +121,13 @@ a:hover {
   width: 50%;
   padding: 10vh;
   box-sizing: border-box;
+  text-align: center;
+}
+
+.article-post > div {
+  width: 33%;
+  box-sizing: border-box;
+  padding: 15vh;
   text-align: center;
 }
 
@@ -143,13 +151,6 @@ footer p {
   flex-wrap: wrap;
 }
 
-.article-post > div {
-  width: 33%;
-  box-sizing: border-box;
-  padding: 15vh;
-  text-align: center;
-}
-
 .article-post > div.large-boxes {
   width: 66%;
 }
@@ -161,4 +162,20 @@ footer {
 
 footer ul {
   margin-top: 5vh;
+}
+
+.items1{
+  background-color: #999;
+}
+
+.items2{
+  background-color: #777;
+}
+
+.items3{
+  background-color:#666;
+}
+
+.items4{
+  background-color: #444;
 }
